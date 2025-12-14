@@ -1,3 +1,5 @@
+from typing import List, Dict
+
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from qdrant_client import QdrantClient, models
 from qdrant_client.http.models import Distance, VectorParams
